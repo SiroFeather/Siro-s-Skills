@@ -1,0 +1,37 @@
+# ===== 系统/OS 杂项 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.code-workspace
+
+# ===== 敏感与私有文件 =====
+.env
+.env.*
+*.pem
+*.key
+
+# ===== 测试工作区与临时产物（不入库） =====
+*-workspace/
+workspace/
+iteration-*/
+*.tmp
+*.log
+
+# ===== 私有样本/素材（版权与个人素材，仅留skill本体，不入库） =====
+*.docx
+*.doc
+*.pdf
+samples/
+samples_*/
+
+# ===== 打包产物 =====
+dist/
+build/
+*.zip
+*.rar
